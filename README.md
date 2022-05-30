@@ -9,6 +9,8 @@ Creative Commons 4.0 is summarized by the following image:
 
 Read the full terms and conditions of this license [here]([url](https://creativecommons.org/licenses/by/4.0/legalcode)).
 
-## Do you want to know more about Urbánika? Check our campaigns on [Gitcoin]([url](https://gitcoin.co/grants/5090/ourverse-and-the-solarpunk-awakening)), [Giveth]([url](https://giveth.io/project/OurVerse-and-the-SolarPunk-awakening-0)), and [Twitter profile]([url](https://twitter.com/0xUrbanika)).
+## Do you want to know more about Urbánika?
+Check our campaigns on [Gitcoin]([url](https://gitcoin.co/grants/5090/ourverse-and-the-solarpunk-awakening)), [Giveth]([url](https://giveth.io/project/OurVerse-and-the-SolarPunk-awakening-0)), and [Twitter profile]([url](https://twitter.com/0xUrbanika)).
 
-## Do you want to collaborate? Send us a DM to https://twitter.com/0xUrbanika. We will reply you asap.
+## Do you want to collaborate?
+Send us a DM to https://twitter.com/0xUrbanika. We will reply you asap.
