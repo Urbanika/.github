@@ -2,18 +2,6 @@
 
 here you'll find relevant source material to get you started making content.
 
-## Structure & What to expect
-
-├── Urbánika
-│ ├── Avatars
-│ │ ├── Kin
-│ │ ├── Julio
-│ │ ├── Moloch
-│ ├── Source
-│ │ ├── Kin--blend
-│ │ ├── Julio--cc
-│ │ ├── Moloch--cc
-
 ### Avatars
 
 All Avatars are in `.fbx` format and should have textures included.
