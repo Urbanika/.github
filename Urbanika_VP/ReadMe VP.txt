@@ -1,0 +1,1 @@
+Aquí estarán los archivos relacionados a los avatares, sus animaciones, y los retargetting de sus esqueletos.
