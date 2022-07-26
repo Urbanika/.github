@@ -1,0 +1,45 @@
+1. Clone the repo or create a new UE project from scratch. If you create a new one, then download all the metahumans you need. Then Add them to your project. However, the modified version of Kin presented here, will most likely not be of help if you create new metahumans. Unless you get a female metahuman with medium size and normal weight body, then you might add Kin's modified ears on top and just change skin and eye colors, as well as the type of hair. 
+
+In this [video](https://youtu.be/EhwxezI0lLU) you will observe how to set up manually and very easily a modified Kin. As it might be that even when cloning the repository, the blueprint of Kin is not well imported.
+So, let's assume that you have to start from scratch, thus you will need to open a new project, for plugins and folder structure, the recommended one is the Game-based Third Person template.
+Then, you will need to import all the metahumans you need. You can download Urbánika's metahumans from the repository. Remember to copy and paste them with the entire Common folder along with the characters you decide to import. Put these into a folder called MetaHumans inside the Content directory. It is important that you import the metahumans (MH) through the windows explorer with UE closed.
+
+The linked video will begin here. However, when it was done, I did not import the previous folders at the beginning and had to do it later when I found out they were missing.
+
+Go to the Characters folder (Content/Characters) and create a new folder. Call this new folder ModifiedKin. There, import the folders and files within the ModifiedKin_essentials folder.
+
+Once UE has accepted all the files you imported, open the Content Browser and go to the ModifiedKin folder. There, right click, import to Game/Characters/ModifiedKin. Now select the Kin_FaceMesh_new.fbx file, open it, add the Face_Archetype_Skeleton at the Skeleton Mesh. Click Import.
+
+[Note: The skeletal meshes you need are within the folder ModifiedKin_skeletons.]
+
+It will pop up a Message window telling you that it failed to merge bones. Click No. It will import the files without problems. Now, it's time to import the body of ModifiedKin. Right click on any space of the folder, import to Game/Characters/ModifiedKin. Select the f_tal_nrw_body_new.fbx file, add the metahuman_base_skel file and import. Close the message log. It is not of importance.
+
+Go into the MetaHumans/Kin directory and duplicate the BP_Kin file. Name it however you want. I gave her the name KinV2. Open it. Open the Viewport window. Select the Face from the left panel. Go to the right panel, on Details, and on Mesh change the current Skeletal Mesh from Kin_FaceMesh to Kin_FaceMesh_new. Close the Message log. Double click on the preview image of the Skeletal Mesh. Say Yes to the Regenerate Skeleton message.
+
+Now is time to dress the mesh. Click on face and add MI_HeadSynthesized_Baked. Make sure you add the one of the Modified Kin or the one of original Kin, but the modified one might be the best. Now repeat the same accordingly following the below list:
+face	      MI_HeadSynthesized_Baked
+gums	      gums
+teeth	      M_TeethCharacterCreator_Inst
+eyes_glassy	M_lacrimal_fluid or lacrimal_fluid1, does not make any difference
+eye_balls	  MI_EyeRefractive_Inst_L or R, it does not make any difference
+eye_lashes	M_EyeLash_HigherLODs_Kin_Inst
+
+Additonally, I changed the LODSettings to Face_Archetype_LODSettings. I do not remember why, but that's how it is. Once you do that, and you want to close, it will require you to apply the level of detail, click OK.
+
+Close. Compile. Save all. Now is turn for the Body. On the Components panel (left), select Body. On the Details (right) panel, change the Skeletal mesh from f_tal_nrw_body to its _new version. Open it. You are going to repeat the same process as before but now for the following elements:
+
+Element 0: M_BodySynthesized
+Element 1: Plastic_Worn_White
+Element 2: Plastic_Worn_Black
+Element 3: Rubber
+Element 4: Silver_Sandblasted
+Element 5: Thingy
+Element 6: Glass
+Element 7: Plastic_Glossy_White
+Element 8: Wrist_light
+
+You most likely will have already these files there, but if you see them all white, grey, or black, they were not well imported, so make sure that you add the name that is within the ModifiedKin/Materials folder. Also, once you add them, as you see in the video, you will need to fix some errors. The video guides you through on these very easily. Just follow it. It is around the minute 4:07
+
+When you are done, save and close. If by any change you see the face of Kin at the bottom, don't worry. It's just loading. Hit compile, save all. Close.
+
+Done, now you can drop your modified version of Kin to your level!
