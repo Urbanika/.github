@@ -1,4 +1,4 @@
-## 🧐  What is (https://urbanika.xyz/),?
+## 🧐  What is [Urbánika](https://urbanika.xyz/),?
 We started as a propaganda machine for the crypto-commons. Thanks to the Crypto-Commons Hub and to over 2K donors in Gitcoin and Giveth we crafted free immersive video guides about commoning and the use of decentralized coordination tools for urban changemakers.
 You can access and view all our content and courses for free here: https://urbanika.notion.site/
 
